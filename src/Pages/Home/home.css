@@ -1,0 +1,250 @@
+.container {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background:  #727171;
+
+    /* background: #12CECE; */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.box {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 500px;
+    max-width: 600px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+form input {
+    color: #757575;
+    padding: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    outline: none;
+    width: 80%;
+    border-radius: 5px;
+    border: 0;
+}
+
+form input::placeholder {
+    color: #b8b8b8;
+}
+
+form button {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    background: #1A6EF9;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    margin-left: 10px;
+}
+
+form button:hover {
+   cursor: pointer;
+   background: #1867e6;
+}
+
+form button svg {
+    color: #fff;
+    font-size: 18px;
+}
+
+form button svg:hover {
+    color: rgb(218, 218, 218);
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.title  svg {
+    margin-bottom: -2px;
+    font-size: 20px;
+    color: #bbbbbb;
+}
+
+
+
+img {
+    margin-top: 20px;
+    width: 100px;
+    height: 50%;
+}
+
+.description {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-transform: capitalize;
+}
+
+.description span {
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.description p {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.infos {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.initial h2 {
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texts {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.texts svg {
+    font-size: 24px;
+}
+
+.texts .humidade {
+    color:#4fcae9;
+}
+
+.texts .termometro {
+    color: rgb(236, 76, 55);
+}
+
+.texts p {
+    font-weight: 600;
+}
+
+.texts  span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 425px) {
+    .box {
+        width: 360px;
+    }
+
+    .initial h2 {
+        font-size: 1.2em;
+    }
+
+    form input {
+        padding: 5px;
+        padding-left: 10px;
+        font-size: .9em;
+    }
+
+    form button svg {
+        font-size: 1em;
+    }
+
+    .title {
+        font-size: 1.2em;
+    }
+    
+    .title  svg {
+        margin-bottom: -2px;
+        font-size: 1.1em;
+    }
+
+    .description span {
+        font-size: 1.3em;
+    }
+
+    .description p {
+        font-size: 1.4em;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .box {
+        width: 320px;
+    }
+    .initial h2 {
+        font-size: 1.1em;
+    }
+
+    form input {
+        padding: 5px;
+        padding-left: 10px;
+        font-size: .9em;
+    }
+
+    form button svg {
+        font-size: 1em;
+    }
+
+    img {
+        margin-top: 20px;
+        width: 90px;
+        height: 50%;
+    }
+
+    .title {
+        font-size: 1em;
+    }
+    
+    .title  svg {
+        margin-bottom: -2px;
+        font-size: 1em;
+    }
+
+    .description span {
+        font-size: 1.1em;
+    }
+
+    .description p {
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .box {
+        width: 260px;
+    }
+
+    .initial h2 {
+        font-size: 1em;
+    }
+
+    img {
+        margin-top: 20px;
+        width: 80px;
+        height: 50%;
+    }
+}
